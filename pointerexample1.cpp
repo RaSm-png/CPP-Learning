@@ -6,18 +6,20 @@ int main(){
 
     int *ptrx = &x;
     int *ptry = &y;
+    *ptrx=20;
+    cout<<x<<"\n";
 
-    int add;
+    //int add;
 
-    int *result = &add;
+   // int *result = &add;
 
-    *result = *ptrx + *ptry;
+    //*result = *ptrx + *ptry;
 
-    cout<<add<<"\n";
+   // cout<<add<<"\n";
 
     //int addressadd = &ptrx + &ptry;
-    cout<<&ptrx<<endl; // prints the address of the pointer
-    cout<<&result<<endl;
+   // cout<<&ptrx<<endl; // prints the address of the pointer
+    //cout<<&result<<endl;
 
     return 0;
 }
